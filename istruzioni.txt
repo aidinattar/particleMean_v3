@@ -1,0 +1,31 @@
+
+---- Modificare Mean_v2 e usare STL ----
+
+Sostituire gli array nativi con "vectors" STL nella classe "Event",
+come destritto nel seguente.
+
+***
+Modificare la classe "Event":
+- Sostituire l'array di pointers con un std::vector ,
+- rimuovere il numero di particelle, corrispondenti alla dimensione del vector,
+- rimuovere il numero massimo di particelle,
+- modificare la funzione membro per usare il vettore al posto dell'array nativo.
+Nel costruttore riservare per il vector un numero di elementi uguale a 10.
+
+***
+Modificare la funzione "main" per usare una std::string per l'input del nome del file.
+
+********* final list of functions *********
+
+main                   modify Mean_v2
+read                   copy   Mean_v2
+dump                   copy   Mean_v2
+mass                   copy   Mean_v2
+
+********* final list of classes   *********
+
+                       .h                            .cc
+Event                  modify Mean_v2                modify Mean_v2
+MassMean               copy   Mean_v2                copy   Mean_v2
+Constants              copy   Mean_v2                copy   Mean_v2
+Utilities              copy   Mean_v2                copy   Mean_v2
