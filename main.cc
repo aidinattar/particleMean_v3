@@ -33,7 +33,6 @@ int main( int argc, char* argv[] ) {
 
     K0.add( *ev );
     Lambda0.add( *ev );
-
   }
 
   // compute results

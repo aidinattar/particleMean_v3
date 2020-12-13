@@ -21,7 +21,6 @@ class Event {
 
     int q; // charge
     float Px; float Py; float Pz; // momentum components
-  
   };
   typedef const Particle* part_ptr;
 
